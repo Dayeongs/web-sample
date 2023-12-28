@@ -3,7 +3,7 @@ package hr.vo;
 public class Job {
 	
 	private String id;
-	private String name;
+	private String title;
 	private int minSalary;
 	private int maxSalary;
 	
@@ -17,12 +17,12 @@ public class Job {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	public int getMinSalary() {
@@ -39,6 +39,11 @@ public class Job {
 
 	public void setMaxSalary(int maxSalary) {
 		this.maxSalary = maxSalary;
-	};
+	}
+	
+	@Override
+	public String toString() {
+		return "Job [id=" + id + ", title=" + title + ", minSalary=" + minSalary + ", maxSalary=" + maxSalary + "]";
+	}
 	
 }

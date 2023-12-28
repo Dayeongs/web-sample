@@ -13,7 +13,7 @@
 	<ul>
 		<li><a href="dept/list.jsp">부서목록</a></li>
 		<li><a href="job/list.jsp">직종목록</a></li>
-		<li><a href="emp/list.jsp">사원목록</a></li>
+		<li><a href="emp/list.jsp?page=1">사원목록</a></li>
 	</ul>
 </body>
 </html>
